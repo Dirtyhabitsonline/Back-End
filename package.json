@@ -22,13 +22,13 @@
     "connect-mongo": "^4.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "express": "^4.18.0",
+    "express": "4.19.2",
     "express-session": "^1.17.2",
     "express-validator": "^6.14.0",
-    "mongodb": "^4.5.0",
+    "mongodb": "4.17.0",
     "pokersolver": "^2.1.4",
     "redis": "^4.0.6",
-    "socket.io": "^4.5.0"
+    "socket.io": "4.6.2"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
@@ -38,5 +38,12 @@
     "nodemon": "^2.0.15",
     "prettier": "^2.6.2",
     "supertest": "^6.2.2"
+  },
+  "overrides": {
+    "ip@<=1.1.9": "1.1.9",
+    "socket.io-parser@<=4.2.3": "4.2.3",
+    "ws@<=8.17.1": "8.17.1",
+    "engine.io@<=6.4.2": "6.4.2",
+    "path-to-regexp@<=7.1.0": "7.1.0"
   }
 }
